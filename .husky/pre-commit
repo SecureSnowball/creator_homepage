@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+purgecss --css assets/css/bootstrap.min.css --content index.html -o assets/css/main.css
